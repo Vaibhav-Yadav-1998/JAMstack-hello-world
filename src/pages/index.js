@@ -14,8 +14,21 @@ const IndexPage = () => (
   >
     <h1>Hi !</h1>
     <h2>I am Vaibhav Yadav</h2>
-    <p>Right now i am learning to code full time independently</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>
+      I am from India, right now i am learning web development full time
+      independently.
+    </p>
+    <a
+      style={{ display: 'inline-block', margin: '10px' }}
+      href="https://freecodecamp.org/vaibhav-yadav-1998"
+      target="_blank"
+    >
+      FreeCodeCamp
+    </a>
+    <br />
+    <a href="https://github.com/vaibhav-yadav-1998" target="_blank">
+      Github
+    </a>
   </div>
 )
 
